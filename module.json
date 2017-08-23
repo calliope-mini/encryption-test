@@ -1,0 +1,11 @@
+{
+  "name": "encryption-test",
+  "version": "1.0.0",
+  "description": "Calliope mini Encryption Test",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "microbit": "calliope-mini/microbit#v2.0.0-rc8-calliope-1.0.3"
+  },
+  "targetDependencies": {},
+  "bin": "./source"
+}
