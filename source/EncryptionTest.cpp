@@ -16,7 +16,7 @@ MicroBit uBit;
 int main(void) {
     uBit.init();
     uBit.serial.baud(115200);
-    uBit.serial.send("Calliope Accelerometer Test v1.0\r\n");
+    uBit.serial.send("Calliope Encryption Test v1.0\r\n");
 
     auto *cleartext = const_cast<char *>("012345678901234567890");
     printf("clear length: %d\r\n", strlen(cleartext));
